@@ -19,7 +19,7 @@ App has two solutions:
 
 ### Before the start
 
-To run the app you have to create api keys in chosen folder  and make a file config.js with the following data:
+To run the app you have to create api keys and in chosen folder create a file `config.js` with the following data:
 ```
 module.exports = {
     geoURL: 'http://www.mapquestapi.com/geocoding/v1/address?key=YOUR_KEY',
