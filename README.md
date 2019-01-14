@@ -10,7 +10,7 @@
 
 ### About
 
-App allows to show up the weather.
+App allows to show up the weather. <br />
 APIs are `mapquestapi.com` for geodata and `darksky.net` for weather.
 
 App has two solutions: 
@@ -19,7 +19,7 @@ App has two solutions:
 
 ### Before the start
 
-To run the app, in chosen folder you have to create api keys and make a file config.js with the following data:
+To run the app you have to create api keys in chosen folder  and make a file config.js with the following data:
 ```
 module.exports = {
     geoURL: 'http://www.mapquestapi.com/geocoding/v1/address?key=YOUR_KEY',
@@ -32,4 +32,4 @@ module.exports = {
 
 `node app.js --help` to look at the available commands.
 
-`npm run add -a [address]` to fetch the weather in current zone.
+`node app.js -a [address]` to fetch the weather in current zone.
